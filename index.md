@@ -1,5 +1,8 @@
 ## Memoirs of Men
 
+<div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'ao059r1RhMn77SDfolGZ'});Pixlee.addSimpleWidget({widgetId:'11071'});};</script><script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
+
+
 You can use the [editor on GitHub](https://github.com/memoirsofmen/memoirsofmen.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
