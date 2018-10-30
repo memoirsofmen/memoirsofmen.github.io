@@ -1,3 +1,7 @@
+header {
+  display: none;
+}
+
 ## Memoirs of Men
 
 You can use the [editor on GitHub](https://github.com/memoirsofmen/memoirsofmen.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
