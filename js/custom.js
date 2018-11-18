@@ -9,7 +9,7 @@
 
             get: 'user',
             userId: '6935940613',
-            limit: 100,
+            limit: 15,
             resolution: 'standard_resolution',
             accessToken: '6935940613.1677ed0.9496fd5d8d4a48ed9a282332e2b7909b',
             sortBy: 'most-commented',
