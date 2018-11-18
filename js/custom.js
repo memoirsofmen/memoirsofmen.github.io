@@ -9,10 +9,24 @@ $(document).ready(function() {
 
         get: 'user',
         userId: '6935940613',
-        limit: 12,
+        limit: 100,
         resolution: 'standard_resolution',
         accessToken: '6935940613.1677ed0.9496fd5d8d4a48ed9a282332e2b7909b',
-        sortBy: 'most-liked',
+        sortBy: 'most-commented',
+        filter: function(image) {
+      var MAX_LENGTH = 10;
+
+      // here we create a property called "short_caption"
+      // on the image object, using the original caption
+      if (image.caption && image.caption.text) {
+        image.short_caption = image.caption.text.slice(0, MAX_LENGTH);
+      } else {
+        image.short_caption = "";
+      }
+
+      // ensure the filter doesn't reject any images
+      return true;
+    },
         template: '<div class="col-lg-4 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
    
     
